@@ -14,6 +14,7 @@ su -s /bin/bash -l steam -c 'steamcmd +quit'; \
 rm -rf /root/.steam /var/lib/apt/lists/*;
 
 COPY docker-entrypoint.sh /usr/bin/docker-entrypoint.sh
+RUN chmod +x /usr/bin/docker-entrypoint.sh
 
 EXPOSE 2301-2305/udp 9001/tcp
 
