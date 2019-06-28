@@ -1,4 +1,4 @@
-FROM slasse/steamcmd:1.0.0
+FROM slasse/steamcmd:1.0.1
 
 MAINTAINER slasse <slasse007@gmail.com>
 # forked from wilkesystems/docker-arma3 
